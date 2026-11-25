@@ -1,0 +1,8 @@
+{
+  "name": "DengFOC",
+  "version": "0.4.0",
+  "description": "从 Arduino 示例迁移的 DengFOC V4 第九章电流采样 FOC 库",
+  "keywords": ["FOC", "ESP32", "AS5600", "current-sense"],
+  "frameworks": ["arduino"],
+  "platforms": ["espressif32"]
+}
