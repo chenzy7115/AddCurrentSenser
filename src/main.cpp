@@ -1,7 +1,7 @@
 #include <Arduino.h>
 #include <DengFOC.h>
 
-int Sensor_DIR = -1;  //传感器方向：1 或 -1，用于统一电角度和速度方向
+int Sensor_DIR = 1;  //传感器方向：1 或 -1，用于统一电角度和速度方向
 int Motor_PP = 7;     //电机极对数，必须与实际电机一致
 
 // 初始化串口、驱动器使能、PWM、编码器、电流采样和电角度零点。
