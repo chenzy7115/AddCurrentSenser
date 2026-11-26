@@ -29,12 +29,12 @@ void loop() {
   runFOC();
 
   //力位闭环示例（默认注释）：角度环输出直接作为电流环目标
-  // DFOC_M0_SET_ANGLE_PID(0.5,0,0.003,100000,0.1);
+  // DFOC_M0_SET_ANGLE_PID(0.5,0,0.003,100000,0.3);
   // DFOC_M0_SET_CURRENT_PID(1.25,50,0,100000);
   // DFOC_M0_set_Force_Angle(serial_motor_target());
 
   //速度闭环示例（默认注释）：速度环输出作为电流环目标
-  // DFOC_M0_SET_VEL_PID(3,2,0,100000,0.5);
+  // DFOC_M0_SET_VEL_PID(3,2,0,100000,0.3);
   // DFOC_M0_SET_CURRENT_PID(0.5,50,0,100000);
   // DFOC_M0_setVelocity(serial_motor_target());
 
